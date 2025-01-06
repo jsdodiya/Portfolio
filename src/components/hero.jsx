@@ -31,10 +31,16 @@ const hero = () => {
             </button>
 
             <div className='flex mt-5 space-x-4 cursor-pointer'>
-                <BsInstagram size={40} className='border-4 hover:border-indigo-800 rounded-full'/>
-                <BsLinkedin size={40} className='border-4 hover:border-indigo-800 rounded-full'/>
-                <FaGithub size={40} className='border-4 hover:border-indigo-800 rounded-full'/>
-                
+            <a href="https://www.instagram.com/jinendra.dodiya/" target="_blank" rel="noopener noreferrer">
+    <BsInstagram size={40} className="border-4 hover:border-indigo-800 rounded-full" />
+</a>
+<a href="https://www.linkedin.com/in/jinendra-pal-dodiya-8a7a21151/" target="_blank" rel="noopener noreferrer">
+    <BsLinkedin size={40} className="border-4 hover:border-indigo-800 rounded-full" />
+</a>
+<a href="https://github.com/jsdodiya" target="_blank" rel="noopener noreferrer">
+    <FaGithub size={40} className="border-4 hover:border-indigo-800 rounded-full" />
+</a>
+   
             </div>
         </div>
     </section>
