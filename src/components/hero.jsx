@@ -11,14 +11,14 @@ const hero = () => {
             <p className='text-4xl mb-5 text-slate-300'> I'm</p>
             <h1 className='text-6xl'>Jinendra Pal Dodiya</h1>
             <hr/>
-            <p className='mt-10  text-slate-300 font-sans '>
+            <p className='mt-4  text-slate-300 font-sans '>
             Creative frontend developer dedicated to crafting seamless,
             user-centric web interfaces that blend functionality with stunning visuals,
             using the latest technologies and design principles.   
             </p>
         </div>
         <div className='w-1/3 items-center ssm:w-fit'>
-          <img src={JinendraImage} alt='' width={300} height={300} className='rounded-full  border-8 border-white '/>  
+          <img src={JinendraImage} alt='' width={450} height={300} className='rounded-full border-8 border-white '/>  
         </div>
        
         <div className='w-1/3 ssm:w-fit'>
